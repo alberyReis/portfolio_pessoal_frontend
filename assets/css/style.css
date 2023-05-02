@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: linear-gradient(#232A40, #5A6273);
+}
+
+header {
+    height: 100vh;
+    max-width: 1400px;
+    margin: auto;
+    background: linear-gradient(to right, #000000df, #232a40ce), url("../img/banner01.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #F0F2F2;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background: #232a40ef;
+}
+
+#logo img {
+    padding: 5px 0 5px 20px;
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+.itens_menu {
+    display: flex;
+}
+
+.itens_menu li {
+    padding: 22px 15px;
+}
+
+.itens_menu li:hover {
+    color: #ffa500;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000bf;
+}
+
+.itens_menu li:active {
+    text-shadow: 4px 4px 8px #000000bf;
+}
+
+nav button {
+    height: 50px;
+    margin-top: 6px;
+    margin-left: 15px;
+    padding: 0 22px;
+    font-size: 1em;
+    background: #232A40;
+    border: 2px solid #ffa500;
+    color: #ffa500;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background: #0b0d14;
+    box-shadow: 3px 3px 10px 5px #00000078;
+    cursor: pointer;
+}
+
+nav button:active {
+    box-shadow: 6px 6px 10px 5px #00000078;
+}
+
+
+#banner {
+    padding: 250px 0 0 100px;
+    line-height: 2.5em;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+}
+
+#banner #albery {
+    font-size: 3.5em;
+    padding: 20px 0;
+}
+
+#banner button {
+    height: 50px;
+    margin-top: 6px;
+    padding: 0 28px;
+    font-size: 0.8em;
+    background: #232A40;
+    border: 2px solid #ffa500;
+    color: #ffa500;
+    border-radius: 5px;
+}
+
+#banner button:hover {
+    background: #0b0d14;
+    box-shadow: 3px 3px 10px 5px #00000078;
+    cursor: pointer;
+}
+
+#banner button:active {
+    box-shadow: 6px 6px 10px 5px #00000078;
+}
