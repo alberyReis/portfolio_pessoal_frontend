@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +9,131 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portifolio</title>
 </head>
+
 <body>
     <header>
-        <div id="menu">
-            <div id="logo">
+        <div class="menu">
+            <div class="logo">
                 <img src="./assets/img/logo.png" alt="">
             </div>
             <nav>
                 <ul class="itens_menu">
                     <li>Home</li>
                     <li>Sobre</li>
-                    <li>Serviços</li>
+                    <li>Linguagens e Tecnologia</li>
                     <li>Portifolio</li>
                     <li>Contato</li>
                 </ul>
                 <button>Contate-me</button>
             </nav>
         </div>
-        <div id="banner">
+        <div class="banner">
             <p>Olá! Eu Sou</p>
-            <p id="albery">Albery Reis</p>
+            <p class="albery">Albery Reis</p>
             <p>Um Desenvolvedor Front End</p>
             <button>Contate-me</button>
         </div>
     </header>
+    <main>
+        <section class="sobre">
+            <div>
+                <img class="foto_perfil" src="./assets/img/albery01.png" alt="">
+            </div>
+            <div class="sobre_mim">
+                <p class="descobrir">Descobrir</p>
+                <h1>Sobre mim</h1>
+                <p>Olá, eu sou Albery Vieira Reis e estou em constante desenvolvimento como profissional de desenvolvimento web. Com 35 anos de idade, sou natural de Aracaju e tenho experiência em tecnologias como HTML, CSS, JavaScript, Git e GitHub.</p>
+                <p>Atualmente, estou me dedicando a aprimorar minhas habilidades em React, uma biblioteca JavaScript muito popular para a criação de interfaces de usuário. Estou sempre buscando novos desafios e oportunidades para continuar aprendendo e aprimorando minhas habilidades como desenvolvedor.</p>
+                <p>Com minha experiência em tecnologias web e minha dedicação em aprender novas habilidades, estou
+                    confiante em minha capacidade de criar soluções personalizadas e eficazes para meus clientes. Se
+                    você está procurando um desenvolvedor comprometido em oferecer o melhor serviço possível e está
+                    interessado em trabalhar com React, fique à vontade para entrar em contato comigo. Seria um prazer
+                    trabalhar com você para criar uma aplicação web que atenda às suas necessidades específicas.</p>
+                <div>
+                    <img class="redes_sociais" src="./assets/img/linkedin.png" alt="">
+                    <img class="redes_sociais" src="./assets/img/github.png" alt="">
+                </div>
+                <button>BAIXAR CURRICULO</button>
+            </div>
+        </section>
+        <section class="tecnologias">
+            <h1>Linguagens e Tecnologias</h1>
+            <div class="container_cards">
+                <div class="cards">
+                    <img src="./assets/img/html.png" alt="">
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/css.png" alt="">
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/bootstrap.png" alt="">
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/javascript.png" alt="">
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/git.png" alt="">
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/github_img.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="portifolio">
+            <div class="projetos">
+                <h1>Barbearia Reis</h1>
+                <p>Com o intuito de desenvolver um site funcional e atrativo para a Barbearia Reis, empreguei minhas habilidades em HTML, CSS e JavaScript puros, garantindo que cada aspecto da plataforma digital fosse cuidadosamente projetado para transmitir a identidade da empresa.</p>
+                <img src="./assets/img/template_barbearia_reis.png" alt="">
+            </div>
+        </section>
+        <section class="contato">
+            <div class="contato_apresentacao">
+                <h2>Entrar em contato</h2>
+                <h1>Contate-me</h1>
+            </div>
+            <div class="contato_container">
+                <div class="contato_info">
+                    <div class="contato_cards">
+                        <span>
+                            <h2>LOCALIZAÇÂO</h2>
+                            <p>Aracaju-SE, BRA</p>
+                        </span>
+                        <span>
+                            <img src="./assets/img/localizacao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="contato_cards">
+                        <span>
+                            <h2>E-MAIL</h2>
+                            <p>albery.rei.88@gmail.com</p>
+                        </span>
+                        <span>
+                            <img src="./assets/img/email.png" alt="">
+                        </span>
+                    </div>
+                    <div class="contato_cards">
+                        <span>
+                            <h2>TELEFONE</h2>
+                            <p>(79) 99175-0905</p>
+                        </span>
+                        <span>
+                            <img src="./assets/img/ligacao.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div class="contato_form">
+                    <form action="post" autocomplete="off">
+                        <input type="text" id="nome" placeholder="Nome">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <input type="text" id="assunto" placeholder="Assunto">
+                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                        <input type="submit" value="Enviar" id="enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="./assets/script/script.js"></script>
 </body>
+
 </html>

@@ -18,13 +18,13 @@ header {
     font-size: 1.2em;
 }
 
-#menu {
+.menu {
     display: flex;
     justify-content: space-between;
     background: #232a40ef;
 }
 
-#logo img {
+.logo img {
     padding: 5px 0 5px 20px;
     width: 80px;
 }
@@ -49,7 +49,7 @@ nav {
 }
 
 .itens_menu li:active {
-    text-shadow: 4px 4px 8px #000000bf;
+    text-shadow: 8px 8px 8px #000000bf;
 }
 
 nav button {
@@ -75,19 +75,19 @@ nav button:active {
 }
 
 
-#banner {
+.banner {
     padding: 250px 0 0 100px;
     line-height: 2.5em;
     letter-spacing: 0.1em;
     font-size: 1.5em;
 }
 
-#banner #albery {
+.banner .albery {
     font-size: 3.5em;
     padding: 20px 0;
 }
 
-#banner button {
+.banner button {
     height: 50px;
     margin-top: 6px;
     padding: 0 28px;
@@ -98,12 +98,273 @@ nav button:active {
     border-radius: 5px;
 }
 
-#banner button:hover {
+.banner button:hover {
     background: #0b0d14;
     box-shadow: 3px 3px 10px 5px #00000078;
     cursor: pointer;
 }
 
-#banner button:active {
+.banner button:active {
     box-shadow: 6px 6px 10px 5px #00000078;
+}
+
+.sobre {
+    height: 100%;
+    background: linear-gradient(to right, #000000a9, #232a4090), url("../img/wallpaper01.jpg");
+    max-width: 1400px;
+    margin: auto;
+    background-size: cover;
+    display: flex;
+    color: #F0F2F2;
+    box-sizing: border-box;
+}
+
+.foto_perfil {
+    max-width: 350px;
+    margin: 100px 100px;
+    border: 3px solid #ffa500;
+    border-radius: 10px;
+}
+
+.sobre_mim {
+    padding: 100px 80px 0 0;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+.sobre .descobrir {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #ffa500;
+    text-indent: 0;
+}
+
+.sobre h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #F0F2F2;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+}
+
+.sobre p {
+    text-indent: 1em;
+}
+
+.sobre .redes_sociais {
+    width: 30px;
+    padding: 20px 15px 20px 0;
+}
+
+.sobre .redes_sociais:hover {
+    cursor: pointer;
+}
+
+.sobre button {
+    display: block;
+    height: 50px;
+    margin-bottom: 100px;
+    padding: 0 20px;
+    font-size: 1.2em;
+    background: #232A40;
+    border: 2px solid #ffa500;
+    color: #ffa500;
+    border-radius: 5px;
+}
+
+.sobre button:hover {
+    background: #0b0d14;
+    box-shadow: 3px 3px 10px 5px #00000078;
+    cursor: pointer;
+}
+
+.sobre button:active {
+    box-shadow: 6px 6px 10px 5px #00000078;
+}
+
+.tecnologias {
+    height: 100%;
+    background: linear-gradient(#232A40, #5D6273, #404959);
+    max-width: 1400px;
+    margin: auto;
+    background-size: cover;
+    color: #F0F2F2;
+    box-sizing: border-box;
+}
+
+.tecnologias h1 {
+    display: block;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #F0F2F2;
+    padding: 50px;
+    text-align: center;
+}
+
+.container_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.cards {
+
+    max-height: 200px;
+    max-width: 200px;
+    padding: 50px;
+    margin: 15px;
+    align-items: center;
+    border: 2px solid #ffa500;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 2px #f0f2f270;
+}
+
+.cards:hover {
+    box-shadow: 3px 3px 10px 4px #f0f2f270;
+    background: linear-gradient(#232A40, #5D6273, #404959);
+}
+
+.cards img{
+    max-width: 200px;
+}
+
+.portifolio {
+    height: 100%;
+    background: linear-gradient(to right, #949BA6, #f0f2f2a4, #5D6273);
+    max-width: 1400px;
+    margin: auto;
+    background-size: cover;
+    color: #F0F2F2;
+    box-sizing: border-box;
+}
+
+.portifolio h1 {
+    font-weight: bold;
+    font-size: 3em;
+    color: #232A40;
+    padding: 50px;
+    text-align: center;
+}
+
+.portifolio p {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 2em;
+    color: #232A40;
+    text-align: center;
+}
+
+.portifolio .projetos {
+   padding: 50px;
+}
+
+.portifolio img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.contato {
+    height: 100%;
+    background: #232a40;
+    max-width: 1400px;
+    margin: auto;
+    background-size: cover;
+    color: #F0F2F2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato_apresentacao {
+    padding: 100px 0 30px 65px;
+    line-height: 2.5em;
+}
+
+.contato_apresentacao h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffa500;
+}
+
+.contato_apresentacao  h1 {
+   font-size: 3em;
+}
+ 
+.contato_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.contato_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    padding: 50px;
+}
+
+.contato_form {
+    width: 60%;
+    padding-top: 50px;
+}
+
+.contato_form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato_form input, .contato_form textarea {
+    width: 90%;
+    padding: 12px 0 12px 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background: #232a40;
+    border: 1px solid #f0f2f251;
+    color: #f0f2f251;
+}
+
+.contato_form #enviar {
+    font-size: 1.2em;
+    border: 2px solid #ffa500;
+    color: #ffa500;
+}
+
+.contato_form #enviar:hover {
+    background: #161a2a92;
+    box-shadow: 3px 3px 10px 5px #00000078;
+    cursor: pointer;
+}
+
+.contato_form #enviar:active {
+    box-shadow: 6px 6px 10px 5px #00000078;
+}
+
+.contato_cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border: 2px solid #f0f2f251;
+    border-radius: 10px;
+}
+
+.contato_cards:hover {
+    border: 2px solid #ffa500;
+}
+
+.contato_cards h2 {
+    padding: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.contato_cards p {
+    padding: 10px 0;
+    font-size: 0.8em;
 }
