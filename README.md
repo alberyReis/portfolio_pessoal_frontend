@@ -1,6 +1,6 @@
 # projeto_portifolio_pessoal_html_css_javascript
 
- Olá! Seja bem-vindo ao meu site portfólio, desenvolvido utilizando HTML, CSS e JavaScript puros. Aqui, apresento minha experiência e os projetos nos quais trabalhei, utilizando uma variedade de tecnologias com as quais estou familiarizado. Permita-me guiá-lo pelas principais seções:
+ Olá! Seja bem-vindo ao meu site portfólio, desenvolvido utilizando HTML, CSS e JavaScript puros. Aqui, apresento minha experiência e os projetos nos quais me dediquei, utilizando uma variedade de tecnologias com as quais estou familiarizado. Permita-me guiá-lo pelas principais seções:
 
 Sobre: Nesta seção, compartilho um pouco sobre minha trajetória como desenvolvedor e minha paixão pela criação de soluções digitais. Descrevo minhas experiências relevantes e os princípios que guiam meu trabalho. Também compartilho meu interesse por aprender novas tecnologias e aprimorar constantemente minhas habilidades.
 
