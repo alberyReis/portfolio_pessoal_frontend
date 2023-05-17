@@ -37,7 +37,7 @@ a {
 .menu_hamburguer {
     display: none;
     flex-direction: column;
-    background: #232a40ef;
+    background: #232a406e;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -147,7 +147,7 @@ nav button:active {
 
 .sobre {
     height: 100%;
-    background: linear-gradient(to right, #000000a9, #232a4090), url("../img/wallpaper01.jpg");
+    background: linear-gradient(to right, #000000a9, #232a4090);
     max-width: 1400px;
     margin: auto;
     background-size: cover;
@@ -221,7 +221,7 @@ nav button:active {
 
 .tecnologias {
     height: 100%;
-    background: linear-gradient(#232A40, #5D6273, #404959);
+    background: linear-gradient(to right, #000000a9, #232a4090);;
     max-width: 1400px;
     margin: auto;
     background-size: cover;
@@ -268,7 +268,7 @@ nav button:active {
 
 .portifolio {
     height: 100%;
-    background: linear-gradient(to right, #949BA6, #f0f2f2a4, #5D6273);
+    background: linear-gradient(to right, #000000a9, #232a4090);
     max-width: 1400px;
     margin: auto;
     background-size: cover;
@@ -281,14 +281,14 @@ nav button:active {
     font-weight: bold;
     font-size: 3em;
     padding: 60px 0 0 0;
-    color: #232A40;
+    color: #F0F2F2;
     text-align: center;
 }
 
 .portifolio h2 {
     font-weight: bold;
     font-size: 2em;
-    color: #232A40;
+    color: #F0F2F2;
     padding: 20px 0 40px 0;
     text-align: center;
 }
@@ -297,7 +297,7 @@ nav button:active {
     font-size: 1.2em;
     font-weight: bold;
     line-height: 2em;
-    color: #232A40;
+    color: #F0F2F2;
     text-align: center;
 }
 
