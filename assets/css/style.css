@@ -221,7 +221,7 @@ nav button:active {
 
 .tecnologias {
     height: 100%;
-    background: linear-gradient(to right, #000000a9, #232a4090);;
+    background: #232a40;
     max-width: 1400px;
     margin: auto;
     background-size: cover;
