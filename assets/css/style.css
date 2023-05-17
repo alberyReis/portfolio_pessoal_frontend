@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Titillium Web', sans-serif;
     background: linear-gradient(#232A40, #5A6273);
+    box-sizing: border-box;
 }
 
 header {
@@ -18,10 +23,42 @@ header {
     font-size: 1.2em;
 }
 
+a {
+    text-decoration: none;
+    color: #F0F2F2;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
     background: #232a40ef;
+}
+
+.menu_hamburguer {
+    display: none;
+    flex-direction: column;
+    background: #232a40ef;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icone_hamburguer {
+    padding: 20px;
+}
+
+.icone_hamburguer:hover {
+    cursor: pointer;
+}
+
+.nav_hamburguer {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_hamburguer ul {
+    display: flex;
+    flex-direction: column;
 }
 
 .logo img {
@@ -205,13 +242,13 @@ nav button:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 40px;
+    padding: 0 20px 40px 20px;
 }
 
 .cards {
 
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 130px;
+    max-width: 130px;
     padding: 50px;
     margin: 15px;
     align-items: center;
@@ -225,8 +262,8 @@ nav button:active {
     background: linear-gradient(#232A40, #5D6273, #404959);
 }
 
-.cards img{
-    max-width: 200px;
+.cards img {
+    max-width: 130px;
 }
 
 .portifolio {
@@ -239,11 +276,20 @@ nav button:active {
     box-sizing: border-box;
 }
 
-.portifolio h1 {
+.portifolio_h1 {
+    width: auto;
     font-weight: bold;
     font-size: 3em;
+    padding: 60px 0 0 0;
     color: #232A40;
-    padding: 50px;
+    text-align: center;
+}
+
+.portifolio h2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #232A40;
+    padding: 20px 0 40px 0;
     text-align: center;
 }
 
@@ -256,16 +302,15 @@ nav button:active {
 }
 
 .portifolio .projetos {
-   padding: 50px;
+    padding: 50px;
 }
 
 .portifolio img {
     display: block;
     margin: auto;
-    width: 80%;
     padding: 40px;
+    width: 80%;
     cursor: pointer;
-    border-radius: 50px;
 }
 
 .contato {
@@ -273,7 +318,6 @@ nav button:active {
     background: #232a40;
     max-width: 1400px;
     margin: auto;
-    background-size: cover;
     color: #F0F2F2;
     box-sizing: border-box;
     display: flex;
@@ -291,13 +335,12 @@ nav button:active {
     color: #ffa500;
 }
 
-.contato_apresentacao  h1 {
-   font-size: 3em;
+.contato_apresentacao h1 {
+    font-size: 3em;
 }
- 
+
 .contato_container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 100px;
 }
@@ -320,7 +363,8 @@ nav button:active {
     flex-direction: column;
 }
 
-.contato_form input, .contato_form textarea {
+.contato_form input,
+.contato_form textarea {
     width: 90%;
     padding: 12px 0 12px 10px;
     margin: 10px 0;
@@ -367,4 +411,163 @@ nav button:active {
 .contato_cards p {
     padding: 10px 0;
     font-size: 0.8em;
+}
+
+footer {
+    height: 160px;
+    background: #2c3550;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.redes_sociais_footer {
+    padding: 20px
+}
+
+.redes_sociais_footer img {
+    padding: 10px;
+    margin: 4px;
+    border: 2px solid #ffa500;
+    border-radius: 50%;
+}
+
+.texto_footer {
+    color: #F0F2F2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.texto_footer span {
+    color: #ffa500;
+}
+
+@media (max-width: 991.98px) {
+    .menu {
+        display: none;
+    }
+
+    .menu_hamburguer {
+        display: flex;
+    }
+
+    .nav_hamburguer {
+        display: none;
+    }
+
+    .sobre {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre_mim {
+        text-align: center;
+        padding: 0 40px 40px 40px;
+    }
+
+    .sobre button {
+        margin: 10px auto 10px auto;
+    }
+
+    .cards {
+        height: 120px;
+        width: 120px;
+    }
+
+    .cards img {
+        width: 120px;
+    }
+
+    .projetos img {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .contato_container {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contato_info {
+        width: 80%;
+    }
+
+    .contato_cards {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contato_form {
+        width: 80%
+    }
+
+    .contato_form form {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .banner {
+        padding: 50px;
+        margin: auto;
+    }
+
+    .banner .albery {
+        font-size: 3em;
+    }
+
+    .banner p {
+        font-size: 0.9em;
+    }
+
+    .cards {
+        height: 100px;
+        width: 100px;
+    }
+
+    .cards img {
+        width: 100px;
+    }
+
+    .contato_info {
+        padding: 0;
+    }
+
+    .texto_footer {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .banner .albery {
+        font-size: 2.5em;
+    }
+
+    .banner p {
+        font-size: 0.7em;
+    }
+
+    .foto_perfil {
+        width: 300px;
+        margin: 50px 0 50px 0;
+    }
+
+    .container_cards .cards {
+        height: 80px;
+        width: 80px;
+    }
+
+    .cards img {
+        width: 80px;
+    }
+
+    .texto_footer {
+        font-size: 0.9em;
+    }
 }
