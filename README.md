@@ -1,16 +1,23 @@
-# projeto_barbearia_reis_html_css_javascript
+# projeto_portifolio_pessoal_html_css_javascript
 
- Com o intuito de desenvolver um site funcional e atrativo para a Barbearia Reis, empreguei minhas habilidades em HTML, CSS e JavaScript puros, garantindo que cada aspecto da plataforma digital fosse cuidadosamente projetado para transmitir a identidade da empresa.
+ Olá! Seja bem-vindo ao meu site portfólio, desenvolvido utilizando HTML, CSS e JavaScript puros. Aqui, apresento minha experiência e os projetos nos quais trabalhei, utilizando uma variedade de tecnologias com as quais estou familiarizado. Permita-me guiá-lo pelas principais seções:
 
-Trabalhando de forma independente, pude me dedicar com precisão e atenção aos detalhes, desde a escolha das cores até o layout, criando assim um site envolvente e intuitivo. Com o intuito de apresentar as informações de maneira clara e direta, integrei também uma ferramenta de agendamento online, permitindo aos clientes a facilidade de marcar um horário em poucos cliques.
+Sobre: Nesta seção, compartilho um pouco sobre minha trajetória como desenvolvedor e minha paixão pela criação de soluções digitais. Descrevo minhas experiências relevantes e os princípios que guiam meu trabalho. Também compartilho meu interesse por aprender novas tecnologias e aprimorar constantemente minhas habilidades.
 
-Com o objetivo de tornar o site acessível em todos os dispositivos, apliquei as técnicas de design responsivo, garantindo que a plataforma digital da Barbearia Reis pudesse ser facilmente acessada em desktops, smartphones e tablets. Essa abordagem proporcionou aos clientes uma experiência consistente e agradável, independentemente do dispositivo que utilizavam.
+Linguagens e Tecnologias: Na seção de Linguagens e Tecnologias, apresento as ferramentas e tecnologias com as quais tenho experiência. Utilizo HTML, CSS e JavaScript como base para construir meus projetos. Além disso, estou familiarizado com o framework Bootstrap, que utilizo para criar interfaces modernas e responsivas. Também menciono o uso do Git e do GitHub para controle de versão e colaboração em projetos.
 
-Em resumo, me dediquei incansavelmente na criação do site da Barbearia Reis, utilizando as melhores práticas em design e tecnologia para produzir uma plataforma digital funcional, envolvente e de fácil acesso em todos os dispositivos.
+Projetos: Aqui, você encontrará uma seleção dos projetos mais recentes e relevantes nos quais trabalhei. Cada projeto possui sua própria página, onde descrevo o objetivo, a abordagem e as tecnologias utilizadas. Utilizando minhas habilidades crio soluções estilizadas e responsivas.
+
+Contato: Se você tiver alguma dúvida, desejar colaborar em um projeto ou simplesmente entrar em contato, esta seção é para você. Aqui, você encontrará minhas informações de contato, incluindo meu endereço de e-mail e links para minhas redes sociais. Ficarei feliz em ouvir de você e responder o mais rápido possível.
+
+Agradeço sua visita ao meu site portfólio e espero que você aprecie os projetos que apresento. Estou sempre em busca de novos desafios e oportunidades emocionantes, então não hesite em entrar em contato. Estou ansioso para compartilhar minhas habilidades, conhecimentos e colaborar com você!
+
+Atenciosamente,
+Albery Reis
 
 Link:
 
-[Barbearia Reis](https://alberyreis.github.io/barbearia_reis/)
+[Portifolio Pessoal](https://alberyreis.github.io/portifolio_pessoal/)
 
 Site:
 
