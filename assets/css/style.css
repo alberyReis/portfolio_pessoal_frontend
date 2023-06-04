@@ -30,8 +30,8 @@ a {
 
 .menu {
     position: fixed;
-    top: 0;
     width: 100%;
+    max-width: 1400px;
     display: flex;
     justify-content: space-between;
     background: #232a40;
@@ -39,7 +39,6 @@ a {
 
 .menu_hamburguer {
     position: fixed;
-    top: 0;
     width: 100%;
     display: none;
     flex-direction: column;
