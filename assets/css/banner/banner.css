@@ -1,0 +1,11 @@
+.banner {
+    letter-spacing: 0.1rem;
+    line-height: 5.2rem;
+    margin: 220px 0 0 100px;
+}
+
+@media screen and (max-width: 425px) {
+    .banner{
+        margin: auto;
+    }
+}

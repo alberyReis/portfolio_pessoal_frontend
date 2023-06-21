@@ -1,0 +1,25 @@
+.sobre__btn {
+    background: #232A40;
+    border: 2px solid #ffa500;
+    border-radius: 5px;
+    color: #ffa500;
+    display: block;
+    font-size: 1.2rem;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.sobre__btn:hover {
+    background: #0b0d14;
+    box-shadow: 3px 3px 10px 5px #00000078;
+    cursor: pointer;
+}
+
+.sobre__btn:active {
+    box-shadow: 6px 6px 10px 5px #00000078;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre__btn {
+        margin: auto;
+}

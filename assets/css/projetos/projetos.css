@@ -1,0 +1,10 @@
+.projetos {
+    background: linear-gradient(to right, #000000a9, #232a4090);
+    background-size: cover;
+    box-sizing: border-box;
+    color: #F0F2F2;
+    height: 100%;
+    margin: auto;
+    max-width: 1400px;
+    padding: 60px 0 40px 0;
+}

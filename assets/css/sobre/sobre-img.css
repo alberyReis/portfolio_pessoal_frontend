@@ -1,0 +1,17 @@
+.sobre__img {
+    border: 0.5px solid #ffa60091;
+    margin: 1rem 5rem;
+    max-width: 350px;
+}
+
+.sobre__img:hover {
+    border: 1px solid #ffa600;
+    box-shadow: 3px 3px 10px 10px #0000007b;
+}
+
+@media screen and (max-width: 425px) {
+    .sobre__img {
+        margin: 20px 0;
+        width: 90vw;
+    }
+}

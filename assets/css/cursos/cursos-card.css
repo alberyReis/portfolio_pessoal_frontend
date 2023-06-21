@@ -1,0 +1,27 @@
+.cursos__card {
+    align-items: center;
+    border: 2px solid #000000a9;
+    box-shadow: 1px 1px 10px 2px #00000057;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    margin: 10px 10px;
+    padding: 30px;
+    width: 270px;
+}
+
+.cursos__card:hover {
+    background: linear-gradient(to right, #161b29, #2f364e);
+    box-shadow: 1px 1px 10px 3px #00000072;
+}
+
+@media screen and (max-width: 425px) {
+    .cursos__card {
+        height: 300px;
+        margin: 10px auto;
+        padding: 20px;
+        width: 90vw;
+    }
+}
+

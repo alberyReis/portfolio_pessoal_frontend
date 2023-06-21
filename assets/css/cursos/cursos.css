@@ -1,0 +1,10 @@
+.cursos {
+    background: linear-gradient(to left, #000000a9, #232a4090);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 60px 20px;
+}

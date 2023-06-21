@@ -1,0 +1,12 @@
+.sobre__descricao {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 20px 80px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre__descricao {
+        text-align: center;
+        padding: 0 40px;
+    }
+}

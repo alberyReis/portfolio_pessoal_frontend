@@ -1,0 +1,25 @@
+.hamburguer__itens {
+    background: #5d6da2;
+    border-radius: 10px;
+    color: #F0F2F2;
+    margin: 10px;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.hamburguer__itens:hover {
+    color: #ffa500;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000bf;
+}
+
+.hamburguer__itens:active {
+    text-shadow: 8px 8px 8px #000000bf;
+}
+
+@media screen and (max-width: 425px) {
+    .banner__itens {
+        margin: 10px 0;
+        padding: 15px 0;
+    }
+}

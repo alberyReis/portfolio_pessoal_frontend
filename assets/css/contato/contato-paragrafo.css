@@ -1,0 +1,12 @@
+.contato__paragrafo {
+    color: #F0F2F2;
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+
+.contato__paragrafo--laranja {
+    color: #ffa500;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-indent: 0;
+}

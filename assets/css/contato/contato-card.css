@@ -1,0 +1,17 @@
+.contato__card {
+    border: 2px solid #f0f2f251;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.contato__card:hover {
+    border: 2px solid #ffa500;
+}
+
+@media screen and (max-width: 768px) {
+    .contato__card {
+        margin: auto;
+    }
+}

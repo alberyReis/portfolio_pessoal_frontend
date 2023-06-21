@@ -1,0 +1,15 @@
+.cabecalho__itens {
+    color: #F0F2F2;
+    padding: 22px 15px;
+    text-decoration: none;
+}
+
+.cabecalho__itens:hover {
+    color: #ffa500;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000bf;
+}
+
+.cabecalho__itens:active {
+    text-shadow: 8px 8px 8px #000000bf;
+}

@@ -1,0 +1,14 @@
+.contato__info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 35px;
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .contato__info {
+        width: 100%;
+    }
+}

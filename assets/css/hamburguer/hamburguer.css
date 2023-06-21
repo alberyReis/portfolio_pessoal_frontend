@@ -1,0 +1,17 @@
+.hamburguer {
+    align-items: center;
+    background: #232a40;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburguer {
+        display: flex;
+    }
+}

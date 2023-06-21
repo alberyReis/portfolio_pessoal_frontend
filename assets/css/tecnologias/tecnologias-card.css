@@ -1,0 +1,16 @@
+.tecnologias__card {
+    align-items: center;
+    background: #232A40;
+    border: 2px solid #ffa500;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #f0f2f228;
+    margin: 15px;
+    max-height: 130px;
+    padding: 40px;
+    width: 300px;
+}
+
+.tecnologias__card:hover {
+    background: linear-gradient(to left, #161b29, #2f364e);
+    border: 2px solid #cd8703;
+}

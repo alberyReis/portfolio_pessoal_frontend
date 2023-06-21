@@ -1,7 +1,7 @@
 function menuHamburguer() {
-    const hamburguer = document.querySelector('.menu_hamburguer')
-    const navHamburguer = document.querySelector('.nav_hamburguer')
-    const banner = document.querySelector('.banner')
+    const hamburguer = document.querySelector('#hamburguer__icone')
+    const navHamburguer = document.querySelector('#hamburguer__nav')
+    const banner = document.querySelector('#banner')
     hamburguer.addEventListener('click', () => {
         if (navHamburguer.style.display == 'none') {
             navHamburguer.style.display = 'flex'

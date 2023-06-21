@@ -1,0 +1,7 @@
+.hamburguer__icone {
+    padding: 20px;
+}
+
+.hamburguer__icone:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.cabecalho__container {
+    background: #232a40;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%; 
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho__container {
+        display: none;
+    }
+}
