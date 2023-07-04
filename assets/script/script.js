@@ -11,5 +11,10 @@ function menuHamburguer() {
             banner.style.display = 'block'
         }
     })
+    navHamburguer.addEventListener('click', () => {
+        if(navHamburguer.style.display == 'flex') {
+            navHamburguer.style.display = 'none'
+        }
+    })
 }
 menuHamburguer()
