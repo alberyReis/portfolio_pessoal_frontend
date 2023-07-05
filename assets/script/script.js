@@ -14,6 +14,7 @@ function menuHamburguer() {
     navHamburguer.addEventListener('click', () => {
         if(navHamburguer.style.display == 'flex') {
             navHamburguer.style.display = 'none'
+            banner.style.display = 'block'
         }
     })
 }
