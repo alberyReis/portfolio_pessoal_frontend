@@ -17,7 +17,7 @@ Albery Reis
 
 Link:
 
-[Portifolio Pessoal](https://alberyreis.github.io/portifolio_pessoal/)
+[Portifolio Pessoal](https://portifolio-pessoal-pi.vercel.app/)
 
 Site:
 
