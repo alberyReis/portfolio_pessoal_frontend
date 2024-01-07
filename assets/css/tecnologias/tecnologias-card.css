@@ -1,16 +1,27 @@
 .tecnologias__card {
     align-items: center;
-    background: #232A40;
-    border: 2px solid #ffa500;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px #f0f2f228;
-    margin: 15px;
-    max-height: 130px;
-    padding: 40px;
-    width: 300px;
+    border: 2px solid #000000a9;
+    box-shadow: 1px 1px 10px 2px #00000057;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-between;
+    margin: 10px 10px;
+    padding: 30px;
+    width: 270px;
 }
 
 .tecnologias__card:hover {
-    background: linear-gradient(to left, #161b29, #2f364e);
-    border: 2px solid #cd8703;
+    background: linear-gradient(to right, #161b29, #2f364e);
+    box-shadow: 1px 1px 10px 3px #00000072;
 }
+
+@media screen and (max-width: 425px) {
+    .tecnologias__card {
+        margin: 10px auto;
+        padding: 20px;
+        width: 90vw;
+    }
+}
+

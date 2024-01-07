@@ -7,5 +7,9 @@
 @media screen and (max-width: 425px) {
     .banner{
         margin: auto;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }

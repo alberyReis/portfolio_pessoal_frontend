@@ -32,10 +32,11 @@
     <link rel="stylesheet" href="./assets/css/sobre/sobre-btn.css">
     <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias.css">
     <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-titulo.css">
-    <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-cards.css">
+    <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-subtitulo.css">
     <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-card.css">
     <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-img.css">
     <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-paragrafo.css">
+    <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-container.css">
     <link rel="stylesheet" href="./assets/css/cursos/cursos.css">
     <link rel="stylesheet" href="./assets/css/cursos/cursos-titulo.css">
     <link rel="stylesheet" href="./assets/css/cursos/cursos-container.css">
@@ -86,7 +87,7 @@
                         <li>Skills</li>
                     </a>
                     <a href="#cursos" class="cabecalho__itens">
-                        <li>Cursos</li>
+                        <li>Formação</li>
                     </a>
                     <a href="#projetos" class="cabecalho__itens">
                         <li>Projetos</li>
@@ -112,7 +113,7 @@
                         <li>Skills</li>
                     </a>
                     <a href="#cursos" class="hamburguer__itens">
-                        <li>Cursos</li>
+                        <li>Formação</li>
                     </a>
                     <a href="#projetos" class="hamburguer__itens">
                         <li>Projetos</li>
@@ -134,7 +135,7 @@
     <main>
         <section class="sobre" id="sobre">
             <div>
-                <img class="sobre__img" src="./assets/img/albery.jpg" alt="">
+                <img class="sobre__img" src="./assets/img/albery.png" alt="">
             </div>
             <div class="sobre__descricao">
                 <p class="sobre__paragrafo">Descobrir</p>
@@ -145,90 +146,127 @@
                 entusiasmado, sempre buscando inovação e aprendizado contínuo. Junte-se a mim nesta jornada para moldar o futuro digital
                 com criatividade e habilidades técnicas avançadas.</p>
                 <div>
-                    <a target="_blank" href="https://www.linkedin.com/in/alberyreis/"><img class="sobre__redes" src="./assets/img/linkedin_icon_sm_blue.png" alt=""></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/alberyvieirareis/"><img class="sobre__redes" src="./assets/img/linkedin_icon_sm_blue.png" alt=""></a>
                     <a target="_blank" href="https://github.com/alberyReis"><img class="sobre__redes" src="./assets/img/github_icon_sm.png" alt=""></a>
                 </div>
-                <a target="_blank" href="./assets/arquivos/Curriculo.pdf"><button class="sobre__btn">BAIXAR CURRICULO</button></a>
+                <a target="_blank" href="./assets/arquivos/curriculo.pdf"><button class="sobre__btn">BAIXAR CURRICULO</button></a>
             </div>
         </section>
         <section class="tecnologias" id="tecnologias">
-            <h1 class="tecnologias__titulo">Skills</h1>
-            <div class="tecnologias__cards">
+            <h1 class="tecnologias__titulo">Tecnologias</h1>
+            <div class="tecnologias__container">
                 <div class="tecnologias__card">
-                    <img src="./assets/img/html_icon.png" alt="Icone HTML" class="tecnologias__img">
-                    <p class="tecnologias__paragrafo">HTML</p>
+                    <img class="tecnologias__img" src="./assets/img/html_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">HTML</h2>
+                    <p class="tecnologias__paragrafo">HTML é a linguagem essencial para criar páginas web, usando tags para organizar texto, imagens e links.</p>
                 </div>
                 <div class="tecnologias__card">
-                    <img src="./assets/img/css_icon.png" alt="Icone CSS" class="tecnologias__img">
-                    <p class="tecnologias__paragrafo">CSS</p>
+                    <img class="tecnologias__img" src="./assets/img/css_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">CSS</h2>
+                    <p class="tecnologias__paragrafo">CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a apresentação e o layout de elementos em páginas web.</p>
                 </div>
                 <div class="tecnologias__card">
-                    <img src="./assets/img/bootstrap_icon.png" alt="Icone Bootstrap" class="tecnologias__img">
-                    <p class="tecnologias__paragrafo">Bootstrap</p>
+                    <img class="tecnologias__img" src="./assets/img/bootstrap_icon.png" alt="" style="width: 185px;">
+                    <h2 class="tecnologias__subtitulo">Bootstrap</h2>
+                    <p class="tecnologias__paragrafo">Bootstrap é um framework de código aberto, desenvolvido pelo Twitter, que facilita a criação rápida e responsiva de interfaces web.</p>
                 </div>
                 <div class="tecnologias__card">
-                    <img src="./assets/img/javascript_icon.png" alt="Icone JavaScript" class="tecnologias__img">
-                    <p class="tecnologias__paragrafo">Javascript</p>
+                    <img class="tecnologias__img" src="./assets/img/javascript_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">JavaScript</h2>
+                    <p class="tecnologias__paragrafo">JavaScript é uma linguagem de programação de alto nível amplamente utilizada para desenvolvimento web.</p>
                 </div>
                 <div class="tecnologias__card">
-                    <img src="./assets/img/git_icon.png" alt="Icone Git" class="tecnologias__img">
-                    <p class="tecnologias__paragrafo">Git</p>
+                    <img class="tecnologias__img" src="./assets/img/typescript_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">TypeScript</h2>
+                    <p class="tecnologias__paragrafo">TypeScript é uma extensão da linguagem JavaScript que adiciona um sistema de tipos estáticos à linguagem.</p>
                 </div>
                 <div class="tecnologias__card">
-                    <img src="./assets/img/github_icon.png" alt="Icone GitHub" class="tecnologias__img">
-                    <p class="tecnologias__paragrafo">GitHub</p>
+                    <img class="tecnologias__img" src="./assets/img/react_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">React</h2>
+                    <p class="tecnologias__paragrafo">React é uma biblioteca JavaScript de código aberto utilizada para construir interfaces de usuário (UI) interativas e reativas.</p>
                 </div>
                 <div class="tecnologias__card">
-                    <img src="./assets/img/react_icon.png" alt="Icone GitHub" class="tecnologias__img">
-                    <p class="tecnologias__paragrafo">React</p>
+                    <img class="tecnologias__img" src="./assets/img/angular_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">Angular</h2>
+                    <p class="tecnologias__paragrafo">Angular é um framework mantido pelo Google para desenvolvimento web, usando TypeScript.</p>
+                </div>
+                <div class="tecnologias__card">
+                    <img class="tecnologias__img" src="./assets/img/git_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">Git</h2>
+                    <p class="tecnologias__paragrafo">Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear e gerenciar mudanças no código-fonte durante o desenvolvimento de software</p>
+                </div>
+                <div class="tecnologias__card">
+                    <img class="tecnologias__img" src="./assets/img/github_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">GitHub</h2>
+                    <p class="tecnologias__paragrafo">GitHub é uma plataforma de hospedagem de código-fonte que utiliza o sistema de controle de versão Git</p>
+                </div>
+                <div class="tecnologias__card">
+                    <img class="tecnologias__img" src="./assets/img/sql_icon.png" alt="">
+                    <h2 class="tecnologias__subtitulo">SQL</h2>
+                    <p class="tecnologias__paragrafo">SQL (Structured Query Language) é uma linguagem de programação utilizada para gerenciar e manipular bancos de dados relacionais. </p>
                 </div>
             </div>
         </section>
         <section class="cursos" id="cursos">
-            <h1 class="cursos__titulo">Cursos</h1>
+            <h1 class="cursos__titulo">Formação</h1>
             <div class="cursos__container">
-                <a target="_blank" href="https://cursos.alura.com.br/degree/certificate/a4045791-e391-45e3-a0dd-655d7c5dadf8">
+                <a target="_blank" href="./assets/arquivos/historicoescolar.pdf">
+                    <div class="cursos__card">
+                        <img class="cursos__img" src="./assets/img/logo_estacio.png" alt="">
+                        <h2 class="cursos__subtitulo">Engenharia de Software</h2>
+                        <p class="cursos__paragrafo">2024 - Estácio</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://cursos.alura.com.br/user/albery-reis-88/program/certificate">
                     <div class="cursos__card">
                         <img class="cursos__img" src="./assets/img/logo_alura.png" alt="">
-                        <h2 class="cursos__subtitulo">Formação Desenvolvimento Pessoal T5 - ONE</h2>
+                        <h2 class="cursos__subtitulo">Oracle Next Education F2 T5 Front-end</h2>
                         <p class="cursos__paragrafo">2023 - Alura</p>
                     </div>
                 </a>
-                <a target="_blank" href="https://cursos.alura.com.br/degree/certificate/a4045791-e391-45e3-a0dd-655d7c5dadf8">
+                <a target="_blank" href="https://www.dio.me/certificate/8E96B2B2/share">
                     <div class="cursos__card">
-                        <img class="cursos__img" src="./assets/img/logo_alura.png" alt="">
-                        <h2 class="cursos__subtitulo">Formação Iniciante em Programação T5 - ONE</h2>
-                        <p class="cursos__paragrafo">2023 - Alura</p>
+                        <img class="cursos__img" src="./assets/img/logo_dio.jpg" alt="">
+                        <h2 class="cursos__subtitulo">Formação Lógica de Programação</h2>
+                        <p class="cursos__paragrafo">2023 - Dio.me</p>
+                    </div>
+                </a>">
+                <a target="_blank" href="https://www.dio.me/certificate/504FEFB2/share">
+                    <div class="cursos__card">
+                        <img class="cursos__img" src="./assets/img/logo_dio.jpg" alt="">
+                        <h2 class="cursos__subtitulo">Formação JavaScript Developer</h2>
+                        <p class="cursos__paragrafo">2023 - Dio.me</p>
                     </div>
                 </a>
-                <a target="_blank" href="https://cursos.alura.com.br/degree/certificate/8c065d62-e3cd-4c48-95db-771d07dffb1f">
+                <a target="_blank" href="https://www.dio.me/certificate/EBB3A54E/share">
                     <div class="cursos__card">
-                        <img class="cursos__img" src="./assets/img/logo_alura.png" alt="">
-                        <h2 class="cursos__subtitulo">Formação Business Agility T5 - ONE</h2>
-                        <p class="cursos__paragrafo">2023 - Alura</p>
-                    </div>
-                </a>
-                <a target="_blank" href="https://cursos.alura.com.br/user/albery-reis-88/degree-front-end-turma5-one-579096/certificate">
-                    <div class="cursos__card">
-                        <img class="cursos__img" src="./assets/img/logo_alura.png" alt="">
-                        <h2 class="cursos__subtitulo">Formação Front End T5 - ONE</h2>
-                        <p class="cursos__paragrafo">2023 - Alura</p>
+                        <img class="cursos__img" src="./assets/img/logo_dio.jpg" alt="">
+                        <h2 class="cursos__subtitulo">Formação TypeScript Fullstack Developer</h2>
+                        <p class="cursos__paragrafo">2023 - Dio.me</p>
                     </div>
                 </a>
                 <a target="_blank"
-                    href="https://cursos.alura.com.br/user/albery-reis-88/degree-empreendedorismo-turma5-one-580166/certificate">
+                    href="https://www.dio.me/certificate/A9DA7C87/share">
                     <div class="cursos__card">
-                        <img class="cursos__img" src="./assets/img/logo_alura.png" alt="">
-                        <h2 class="cursos__subtitulo">Formação Empreendedorismo T5 - ONE</h2>
-                        <p class="cursos__paragrafo">2023 - Alura</p>
+                        <img class="cursos__img" src="./assets/img/logo_dio.jpg" alt="">
+                        <h2 class="cursos__subtitulo">Formação React Developer</h2>
+                        <p class="cursos__paragrafo">2023 - Dio.me</p>
                     </div>
                 </a>
                 <a target="_blank"
-                    href="https://cursos.alura.com.br/user/albery-reis-88/degree-react-turma5-one-579108/certificate">
+                    href="https://www.dio.me/certificate/E1B6FC8F/share">
                     <div class="cursos__card">
-                        <img class="cursos__img" src="./assets/img/logo_alura.png" alt="">
-                        <h2 class="cursos__subtitulo">React T5 - ONE</h2>
-                        <p class="cursos__paragrafo">2023 - Alura</p>
+                        <img class="cursos__img" src="./assets/img/logo_dio.jpg" alt="">
+                        <h2 class="cursos__subtitulo">Formação Angular Developer</h2>
+                        <p class="cursos__paragrafo">2023 - Dio.me</p>
+                    </div>
+                </a>
+                <a target="_blank"
+                    href="https://www.dio.me/certificate/6F10BF4D/share">
+                    <div class="cursos__card">
+                        <img class="cursos__img" src="./assets/img/logo_dio.jpg" alt="">
+                        <h2 class="cursos__subtitulo">Formação SQL Database Specialist</h2>
+                        <p class="cursos__paragrafo">2024 - Dio.me</p>
                     </div>
                 </a>
             </div>
@@ -303,7 +341,7 @@
     <footer class="rodape">
         <div class="rodape__redes">
             <a target="_blank" href="https://github.com/alberyReis"><img class="rodape__img" src="./assets/img/github_icon_sm.png" alt="Logo do Github"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/alberyreis/"><img class="rodape__img" src="./assets/img/linkedin_icon_sm_white.png" alt="Logo do linkedin"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/alberyvieirareis/"><img class="rodape__img" src="./assets/img/linkedin_icon_sm_white.png" alt="Logo do linkedin"></a>
         </div>
         <div class="rodape__descricao">
             Todos os direitos reservados &copy; 2023 <span class="rodape__span">Albery Reis</span>

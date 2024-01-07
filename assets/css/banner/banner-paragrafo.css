@@ -10,7 +10,8 @@
 
 @media screen and (max-width: 425px) {
     .banner__paragrafo {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
+        font-weight: bold;
     }
 }
 
