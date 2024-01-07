@@ -6,11 +6,11 @@
 
 @media screen and (max-width: 425px) {
     .banner{
-        margin: auto;
-        padding: 100px 30px;
         display: flex;
         flex-direction: column;
-        line-height: 3rem;
         justify-content: space-around;
+        line-height: 3rem;
+        margin: auto;
+        padding: 100px 30px;
     }
 }
