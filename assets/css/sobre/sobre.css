@@ -1,4 +1,5 @@
 .sobre {
+    align-items: center;
     background: linear-gradient(to right, #000000a9, #232a4090);
     background-size: cover;
     box-sizing: border-box;
