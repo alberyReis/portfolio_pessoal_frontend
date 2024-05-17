@@ -19,7 +19,8 @@
     box-shadow: 6px 6px 10px 5px #00000078;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .sobre__btn {
         margin: auto;
+    }
 }
