@@ -1,22 +1,22 @@
-.banner__paragrafo {
+.apresentacao__paragrafo {
     font-size: 2rem;
     padding: 20px 0;
 }
 
-.banner__paragrafo--ampliado {
+.apresentacao__paragrafo--ampliado {
     font-size: 6rem;
     padding: 20px 0;
 }
 
 @media screen and (max-width: 425px) {
-    .banner__paragrafo {
+    .apresentacao__paragrafo {
         font-size: 1.4rem;
         font-weight: bold;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .banner__paragrafo--ampliado {
+    .apresentacao__paragrafo--ampliado {
         font-size: 3rem;
     }
 }

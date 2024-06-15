@@ -15,6 +15,8 @@
 .tecnologias__card:hover {
     background: linear-gradient(to right, #161b29, #2f364e);
     box-shadow: 1px 1px 10px 3px #00000072;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 425px) {

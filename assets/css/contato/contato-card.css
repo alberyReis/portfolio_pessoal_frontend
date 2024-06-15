@@ -8,6 +8,8 @@
 
 .contato__card:hover {
     border: 2px solid #ffa500;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 768px) {

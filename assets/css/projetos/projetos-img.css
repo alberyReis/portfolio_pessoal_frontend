@@ -3,7 +3,14 @@
     display: block;
     margin: auto;
     padding: 40px;
+    opacity: 0.5;
     width: 90%;
+}
+
+.projetos__img:hover {
+    transition: 0.2s ease-in-out;
+        transform: scale(1.05);
+        opacity: 1;
 }
 
 @media screen and (max-width: 425px) {

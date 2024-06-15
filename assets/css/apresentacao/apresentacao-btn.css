@@ -1,4 +1,4 @@
-.banner__btn {
+.apresentacao__btn {
     background: #232A40;
     border: 2px solid #ffa500;
     border-radius: 5px;
@@ -9,12 +9,14 @@
     padding: 0 28px;
 }
 
-.banner__btn:hover {
+.apresentacao__btn:hover {
     background: #0b0d14;
     box-shadow: 3px 3px 10px 5px #00000078;
     cursor: pointer;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
 }
 
-.banner__btn:active {
+.apresentacao__btn:active {
     box-shadow: 6px 6px 10px 5px #00000078;
 }
