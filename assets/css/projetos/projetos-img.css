@@ -13,7 +13,7 @@
         opacity: 1;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .projetos__img {
         margin: 0 auto;
         padding: 20px 0;
