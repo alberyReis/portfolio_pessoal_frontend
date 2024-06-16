@@ -7,23 +7,18 @@
     flex-direction: column;
     height: 350px;
     justify-content: space-between;
-    margin: 10px 10px;
     padding: 30px;
-    width: 270px;
 }
 
 .tecnologias__card:hover {
     background: linear-gradient(to right, #161b29, #2f364e);
     box-shadow: 1px 1px 10px 3px #00000072;
     transition: 0.2s ease-in-out;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 @media screen and (max-width: 425px) {
     .tecnologias__card {
-        margin: 10px auto;
         padding: 20px;
-        width: 90vw;
     }
 }
-

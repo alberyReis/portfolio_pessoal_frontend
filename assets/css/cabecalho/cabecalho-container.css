@@ -3,10 +3,10 @@
     display: flex;
     justify-content: space-between;
     max-width: 1440px;
-    width: 100%; 
+    width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .cabecalho__container {
         display: none;
     }

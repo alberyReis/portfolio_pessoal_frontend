@@ -1,10 +1,12 @@
 .hamburguer__itens {
-    background: #5d6da234;
+    background: #7e87a345;
     border-radius: 4px;
     color: #F0F2F2;
-    margin: 10px;
     padding: 15px 15px;
     text-decoration: none;
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 0.5rem;
 }
 
 .hamburguer__itens:hover {
