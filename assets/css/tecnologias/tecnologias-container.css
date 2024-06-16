@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 425px) {
     .tecnologias__container {
-        grid-template-columns: repeat(auto-fit, minmax(90vw, 425px));
+        grid-template-columns: repeat(auto-fit, minmax(90vw, 400px));
     }
 }
