@@ -12,7 +12,7 @@ function menuHamburguer() {
         }
     })
     navHamburguer.addEventListener('click', () => {
-        if(navHamburguer.style.display == 'flex') {
+        if (navHamburguer.style.display == 'flex') {
             navHamburguer.style.display = 'none'
             apresentacao.style.display = 'block'
         }

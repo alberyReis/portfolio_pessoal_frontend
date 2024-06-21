@@ -1,3 +1,4 @@
 .tecnologias__img {
-    width: 150px;
+    height: 140px;
+    object-fit: contain;
 }
