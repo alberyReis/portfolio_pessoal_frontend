@@ -13,7 +13,7 @@ const fecharMenuHamburguer = (navHamburguer, apresentacao) => {
 }
 
 hamburguer.addEventListener('click', () => {
-    if (navHamburguer.style.display == 'none') {
+    if (navHamburguer.style.display === 'none') {
         abrirMenuHamburguer(navHamburguer, apresentacao)
     } else {
         fecharMenuHamburguer(navHamburguer, apresentacao)
@@ -21,7 +21,7 @@ hamburguer.addEventListener('click', () => {
 })
 
 navHamburguer.addEventListener('click', () => {
-    if (navHamburguer.style.display == 'flex') {
+    if (navHamburguer.style.display === 'flex') {
         fecharMenuHamburguer(navHamburguer, apresentacao)
     }
 })
