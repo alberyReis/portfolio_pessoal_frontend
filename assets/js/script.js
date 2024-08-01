@@ -1,4 +1,4 @@
-// SEÇAO MENU HAMBURGUER
+// SEÇÂO MENU HAMBURGUER
 
 const hamburguer = document.querySelector('#hamburguer__icone')
 const navHamburguer = document.querySelector('#hamburguer__nav')
