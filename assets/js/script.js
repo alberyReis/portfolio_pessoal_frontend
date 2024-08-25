@@ -123,32 +123,11 @@ const cursos = [
         paragrafo: '2023 - Alura',
     },
     {
-        href: 'https://hermes.dio.me/certificates/EBB3A54E.pdf',
-        src: './assets/img/logo_dio.jpg',
-        alt: 'Logo da Dio',
-        subtitulo: 'Formação TypeScript Fullstack Developer',
-        paragrafo: '2023 - Dio',
-    },
-    {
         href: 'https://cursos.alura.com.br/degree/certificate/5b3cea4e-fc2a-4a7e-8eb4-564058658582',
         src: './assets/img/logo_alura.png',
         alt: 'Logo da Alura',
         subtitulo: 'Formação SQL com MySQL Server da Oracle - ONE',
         paragrafo: '2024 - Alura',
-    },
-    {
-        href: 'https://hermes.dio.me/certificates/6F10BF4D.pdf',
-        src: './assets/img/logo_dio.jpg',
-        alt: 'Logo da Dio',
-        subtitulo: 'Formação SQL Database Specialist',
-        paragrafo: '2024 - Dio',
-    },
-    {
-        href: 'https://comunidade.ada.tech/cursos/b60dfd96-34d9-4880-b23e-7e3679eb5391/certificado',
-        src: './assets/img/logo_adatech.png',
-        alt: 'Logo da Adatech',
-        subtitulo: 'Curso Digital Front-end em React',
-        paragrafo: '2024 - Ada Tech',
     },
 ]
 
