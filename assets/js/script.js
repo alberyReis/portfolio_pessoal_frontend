@@ -161,7 +161,7 @@ cursos.forEach((curso) => {
 const projetos = [
     {
         subtitulo: 'Portifolio Fernando',
-        paragrafo: 'Este portfólio foi desenvolvido para destacar as habilidades do econstrotécnico Fernando.Utilizando React, criei um site moderno e responsivo que se adapta a qualquer dispositivo.Além disso, implementei a API de mensageria do EmailJS para facilitar a comunicação direta e eficiente.',
+        paragrafo: 'Este portfólio foi desenvolvido para destacar as habilidades do eletrotécnico Fernando. Utilizando React, criei um site moderno e responsivo que se adapta a qualquer dispositivo. Além disso, implementei a API de mensageria do EmailJS para facilitar a comunicação direta e eficiente.',
         href: 'https://potifolio-fernando.vercel.app/',
         media01: '(max-width:575.98px)',
         srcSet01: './assets/img/fernando_small.png',
