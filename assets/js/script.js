@@ -168,7 +168,18 @@ const projetos = [
         media02: '(max-width:767.98px)',
         srcSet02: './assets/img/fernando_medium.png',
         src: './assets/img/fernando_large.png',
-        alt: 'Imagem do site intitulado: ',
+        alt: 'Portifolio de Fernando',
+    },
+    {
+        subtitulo: 'Calculadora de Apostilas',
+        paragrafo: 'Apresento o "Calculadora de Apostilas", um projeto desenvolvido para otimizar o cálculo de custos e lucros na encadernação de apostilas, proporcionando uma ferramenta prática e personalizada para um cliente no setor de encadernação e papelaria.',
+        href: 'https://calculadoraapostila.vercel.app/',
+        media01: '(max-width:575.98px)',
+        srcSet01: './assets/img/calculadora_apostila_small.png',
+        media02: '(max-width:767.98px)',
+        srcSet02: './assets/img/calculadora_apostila_medium.png',
+        src: './assets/img/calculadora_apostila_large.png',
+        alt: 'calculadora de Apostilas',
     },
 ]
 
