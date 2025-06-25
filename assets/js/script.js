@@ -86,7 +86,7 @@ const habilidades = [
         paragrafo: 'Express.js é um framework minimalista para Node.js que facilita a criação de APIs e servidores web.',
     },
     {
-        src: './assets/img/mysql_icon.webp',
+        src: './assets/img/mysql_icon.png',
         alt: 'Logo do MySQL',
         subtitulo: 'MySQL',
         paragrafo: 'MySQL é um sistema de gerenciamento de banco de dados relacional amplamente usado para armazenar e organizar dados estruturados.',
