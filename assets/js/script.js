@@ -195,11 +195,11 @@ const projetos = [
     {
         subtitulo: 'Gerador de Recibos',
         paragrafo: 'Gerador de Recibos é uma aplicação em React e TypeScript, criada para a Magic Fest. Basta informar o nome do cliente e adicionar produtos com quantidade, descrição e preço. O sistema gera automaticamente o recibo com data, número e valor total.',
-        href: './assets/img/receipt_generator_large.png',
+        href: 'https://receiptgeneratormf.vercel.app/',
         media01: '(max-width:575.98px)',
         srcSet01: './assets/img/receipt_generator_large.png',
         media02: '(max-width:767.98px)',
-        srcSet02: './assets/img/calculadora_apostila_medium.png',
+        srcSet02: './assets/img/receipt_generator_large.png',
         src: './assets/img/receipt_generator_large.png',
         alt: 'Gerador de Recibos',
     },
