@@ -44,12 +44,6 @@ const habilidades = [
         paragrafo: 'CSS é a linguagem usada para estilizar elementos HTML e definir o layout visual de páginas web.',
     },
     {
-        src: 'https://devicon-website.vercel.app/api/bootstrap/original.svg',
-        alt: 'Logo do Bootstrap',
-        subtitulo: 'Bootstrap',
-        paragrafo: 'Bootstrap é um framework front-end que facilita a criação de sites responsivos e modernos com HTML, CSS e JavaScript prontos para uso.',
-    },
-    {
         src: 'https://devicon-website.vercel.app/api/javascript/original.svg',
         alt: 'Logo do JavaScript',
         subtitulo: 'JavaScript',
@@ -84,24 +78,6 @@ const habilidades = [
         alt: 'Logo do Express.js',
         subtitulo: 'Express.js',
         paragrafo: 'Express.js é um framework minimalista para Node.js que facilita a criação de APIs e servidores web.',
-    },
-    {
-        src: 'https://devicon-website.vercel.app/api/mysql/original.svg',
-        alt: 'Logo do MySQL',
-        subtitulo: 'MySQL',
-        paragrafo: 'MySQL é um sistema de gerenciamento de banco de dados relacional amplamente usado para armazenar e organizar dados estruturados.',
-    },
-    {
-        src: 'https://devicon-website.vercel.app/api/postgresql/original.svg',
-        alt: 'Logo do PostgreSQL',
-        subtitulo: 'PostgreSQL',
-        paragrafo: 'PostgreSQL é um banco de dados relacional avançado, conhecido por sua robustez, extensibilidade e suporte a consultas complexas.',
-    },
-    {
-        src: 'https://devicon-website.vercel.app/api/mongodb/original.svg',
-        alt: 'Logo do MongoDB',
-        subtitulo: 'MongoDB',
-        paragrafo: 'MongoDB é um banco de dados NoSQL orientado a documentos, ideal para armazenar dados flexíveis e escaláveis.',
     },
     {
         src: 'https://devicon-website.vercel.app/api/git/original.svg',
@@ -156,29 +132,22 @@ const cursos = [
         href: 'https://cursos.alura.com.br/user/albery-reis-88/program/7/certificate',
         src: './assets/img/logo_alura.png',
         alt: 'Logo da Alura',
-        subtitulo: 'Oracle Next Education Front-end',
+        subtitulo: 'Formação Oracle Next Education Front-end',
         paragrafo: '2023 - Alura',
     },
     {
-        href: 'https://www.udemy.com/certificate/UC-bd8923b4-c966-440c-b8ff-ece74a51470c/',
-        src: './assets/img/logo_udemy.png',
-        alt: 'Logo da Udemy',
-        subtitulo: 'React Native: Desenvolva APPs Nativas para Android',
-        paragrafo: '2025 - Udemy',
+        href: 'https://hermes.dio.me/certificates/EBB3A54E.pdf',
+        src: './assets/img/dio_logo.png',
+        alt: 'Logo da DIO',
+        subtitulo: 'Formação TypeScript Fullstack Developer',
+        paragrafo: '2023 - DIO',
     },
     {
-        href: 'https://www.udemy.com/certificate/UC-cd9ba2d2-be5e-42c4-9b9c-cc4f63509820/',
-        src: './assets/img/logo_udemy.png',
-        alt: 'Logo da Udemy',
-        subtitulo: 'Node.js do Zero a Maestria',
-        paragrafo: '2025 - Udemy',
-    },
-    {
-        href: 'https://cursos.alura.com.br/degree/certificate/5b3cea4e-fc2a-4a7e-8eb4-564058658582',
-        src: './assets/img/logo_alura.png',
-        alt: 'Logo da Alura',
-        subtitulo: 'SQL com MySQL Server da Oracle',
-        paragrafo: '2024 - Alura',
+        href: 'https://hermes.dio.me/certificates/5IFV84LV.pdf',
+        src: './assets/img/dio_logo.png',
+        alt: 'Logo da DIO',
+        subtitulo: 'Formação Mobile Developer',
+        paragrafo: '2025 - DIO',
     },
 ]
 
@@ -199,8 +168,10 @@ cursos.forEach((curso) => {
 
     cursoContainerCard.innerHTML =
         `<div class='cursos__card'>
-            <img class='cursos__img' src=${curso.src} alt=${curso.alt}>
-            <h2 class='cursos__subtitulo'>${curso.subtitulo}</h2>
+            <div>
+                <img class='cursos__img' src=${curso.src} alt=${curso.alt}>
+                <h2 class='cursos__subtitulo'>${curso.subtitulo}</h2>
+            </div>
             <p class='cursos__paragrafo'>${curso.paragrafo}</p>
         </div>`
 
@@ -213,7 +184,7 @@ const projetos = [
     {
         subtitulo: 'Portifolio Fernando',
         paragrafo: 'Este portfólio foi desenvolvido para destacar as habilidades do eletrotécnico Fernando. Utilizando React, criei um site moderno e responsivo que se adapta a qualquer dispositivo. Além disso, implementei a API de mensageria do EmailJS para facilitar a comunicação direta e eficiente.',
-        href: 'https://potifoliofernando.vercel.app/',
+        href: 'https://potfoliofernando.vercel.app/',
         media01: '(max-width:575.98px)',
         srcSet01: './assets/img/fernando_small.png',
         media02: '(max-width:767.98px)',
@@ -222,15 +193,15 @@ const projetos = [
         alt: 'Portifolio de Fernando',
     },
     {
-        subtitulo: 'Calculadora de Apostilas',
-        paragrafo: 'Apresento o "Calculadora de Apostilas", um projeto desenvolvido para otimizar o cálculo de custos e lucros na encadernação de apostilas, proporcionando uma ferramenta prática e personalizada para um cliente no setor de encadernação e papelaria.',
-        href: 'https://calculadoraapostila.vercel.app/',
+        subtitulo: 'Gerador de Recibos',
+        paragrafo: 'Gerador de Recibos é uma aplicação em React e TypeScript, criada para a Magic Fest. Basta informar o nome do cliente e adicionar produtos com quantidade, descrição e preço. O sistema gera automaticamente o recibo com data, número e valor total.',
+        href: './assets/img/receipt_generator_large.png',
         media01: '(max-width:575.98px)',
-        srcSet01: './assets/img/calculadora_apostila_small.png',
+        srcSet01: './assets/img/receipt_generator_large.png',
         media02: '(max-width:767.98px)',
         srcSet02: './assets/img/calculadora_apostila_medium.png',
-        src: './assets/img/calculadora_apostila_large.png',
-        alt: 'calculadora de Apostilas',
+        src: './assets/img/receipt_generator_large.png',
+        alt: 'Gerador de Recibos',
     },
 ]
 

@@ -5,7 +5,8 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    justify-content: space-between;
+    height: 100%;
     padding: 30px;
 }
 
