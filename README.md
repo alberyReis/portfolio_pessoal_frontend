@@ -17,7 +17,6 @@ Sou **desenvolvedor Fullstack e Mobile**, apaixonado por criar **soluções digi
 
 ## 📬 Contato
 
-- 📧 Email: alberyreis@example.com  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/alberyvieirareis/)  
 - 🐱 [GitHub](https://github.com/alberyReis)  
 
